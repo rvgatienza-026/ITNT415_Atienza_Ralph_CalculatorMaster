@@ -14,6 +14,12 @@ def multiplication(a, b):
     return a * b
 
 
+def division(a, b):
+    if b == 0:
+        return None
+    return a / b
+
+
 try:
     first = float(input("Enter first number: "))
     second = float(input("Enter second number: "))
