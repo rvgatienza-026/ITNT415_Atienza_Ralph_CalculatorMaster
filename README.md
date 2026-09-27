@@ -40,10 +40,4 @@ Each calculator operation was developed using a separate feature branch. Each fe
 <img width="485" height="281" alt="Screenshot 2026-09-27 235445" src="https://github.com/user-attachments/assets/813f141c-2c14-4059-bf42-22be9eec3613" />
 
 
-## Technologies Used
 
-- Python
-- Git
-- GitHub
-- Oracle VM VirtualBox
-- DEVASC Virtual Machine
