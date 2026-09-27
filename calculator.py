@@ -1,6 +1,6 @@
 print("Calculator Master")
 print("Developed by Ralph Vincent G. Atienza")
-print("ITNT415 - BIT31")
+print("ITNT415 - BIT41")
 
 
 def addition(a, b):
@@ -10,14 +10,16 @@ def addition(a, b):
 def subtraction(a, b):
     return a - b
 
+
 def multiplication(a, b):
     return a * b
 
 
 def division(a, b):
     if b == 0:
-        return None
-    return a / b
+        print("Error: Cannot divide by zero.")
+    else:
+        print(f"{a} / {b} = {a / b}")
 
 
 try:
@@ -26,6 +28,9 @@ try:
 
     print("Addition:", addition(first, second))
     print("Subtraction:", subtraction(first, second))
+    print("Multiplication:", multiplication(first, second))
+    print("Division:")
+    division(first, second)
 
 except ValueError:
     print("Invalid input. Please enter numbers only.")
