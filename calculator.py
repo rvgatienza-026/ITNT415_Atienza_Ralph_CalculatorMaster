@@ -11,7 +11,9 @@ try:
     first = float(input("Enter first number: "))
     second = float(input("Enter second number: "))
 
-    print("Result:", addition(first, second))
+    result = addition(first, second)
+
+    print(f"{first} + {second} = {result}")
 
 except ValueError:
     print("Invalid input. Please enter numbers only.")
