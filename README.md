@@ -3,7 +3,7 @@
 ## Student Information
 
 **Student Name:** Ralph Vincent G. Atienza  
-**Course and Section:** ITNT415 - BIT31
+**Course and Section:** ITNT415 - BIT41
 
 ## Project Description
 
