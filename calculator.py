@@ -7,13 +7,16 @@ def addition(a, b):
     return a + b
 
 
+def subtraction(a, b):
+    return a - b
+
+
 try:
     first = float(input("Enter first number: "))
     second = float(input("Enter second number: "))
 
-    result = addition(first, second)
-
-    print(f"{first} + {second} = {result}")
+    print("Addition:", addition(first, second))
+    print("Subtraction:", subtraction(first, second))
 
 except ValueError:
     print("Invalid input. Please enter numbers only.")
