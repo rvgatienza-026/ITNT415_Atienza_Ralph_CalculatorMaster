@@ -30,9 +30,7 @@ Calculator Master is a simple menu-driven Python calculator developed using Git 
 - Division-by-zero handling
 - Exit option
 
-## Git and GitHub Workflow
 
-Each calculator operation was developed using a separate feature branch. Each feature branch contains at least two meaningful commits before being submitted through a Pull Request and merged into the main branch.
 
 ## Sample Execution Screenshot
 
