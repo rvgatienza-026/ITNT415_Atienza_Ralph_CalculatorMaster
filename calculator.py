@@ -1,5 +1,5 @@
 print("================================")
-print("       CALCULATOR MASTER")
+print("       RVGA SMART CALCULATOR")
 print("================================")
 print("Developed by Ralph Vincent G. Atienza")
 print("ITNT415 - BIT41")
